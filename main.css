@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(200, 50, 200);
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul > li {
+    list-style: none;
+    border: 1px solid rgb(50, 200, 50);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+nav > ul > li {
+    display: none;
+}
+
+nav > ul > rover li {
+    display: block;
+}
